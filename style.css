@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap');
+
+
+  * {
+    box-sizing: border-box;
+    background-repeat: repeat;
+  }
+
+  body {
+    background-image: url(tile.jpg);
+  }
+
+  .title {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 70px;
+    text-shadow: -4px 4px rgb(179 179 179 / 40%), -3px 3px rgb(153 153 153 / 20%), -2px 2px rgb(179 179 179 / 20%), -1px 1px rgb(179 179 179 / 20%), 0px 0px rgb(128 128 128 / 50%), 1px -1px rgb(77 77 77 / 60%), 2px -2px rgb(77 77 77 / 70%), 3px -3px rgb(82 82 82 / 80%), 4px -4px rgb(77 77 77 / 90%), 5px -5px rgb(77 77 77);
+  }
+
+  .inputContainer {
+    background-image: url('formbg.jpg');
+    background-position: -80px;
+    width: 500px;
+    height: 200px;
+    -webkit-box-shadow: 1px 3px 24px 13px rgba(0,0,0,0.63); 
+    box-shadow: 1px 3px 24px 13px rgba(0,0,0,0.63);
+    margin: 5px;
+  }
+
+  .TextContainer {
+    margin: 12px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  }
+
+  textarea {
+    background-position: -80px 159px;
+    font-family: 'Nunito', sans-serif;    
+    font-size: 20px;
+    width: 500px;
+    height: 99px;
+    display: inline-block;
+    resize: none;
+    word-wrap: break-word;
+    margin-top: 15px;
+    border: none;
+    background: none;
+    line-height: 34px;
+  }
+
+  div>input.dateTime {
+    font-weight: bold;
+    background: none;
+    border: none;
+  }
+
+  .dateTimeLabel {
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+  }
+  .buttonContainer {
+    margin: 5px;
+    left: 32rem;
+    top: 111px;
+    text-align: center;
+    position: absolute;
+  }
+
+  .myButton {
+    box-shadow: inset 0px 0px 25px 0px #54a3f7;
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color: #2987b9;
+    border-radius: 18px;
+    border: 1px solid #124d77;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+    margin: 25px;
+    box-shadow: 1px 3px 24px 13px rgba(0,0,0,0.63);
+  }
+
+  .myButton:hover {
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color: #0061a7;
+  }
+
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .img {
+    width: 263px;
+    height: 372px;
+    position: absolute;
+  }
+  .taskDetails {
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(notebg.png); */
+    /* background-size: cover; */
+    margin-left: 99px;
+    position: relative;
+    margin-top: 20px;
+    width: 263px;
+    height: 372px;
+    animation: fadeIn 1.5s 1;  
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .inputTextArea {
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    resize: none;
+    word-wrap: break-word;
+    height: 206px;
+    width: 226px;
+    top: 60px;
+    left: 2px;
+    position: absolute;
+    overflow-y: auto;
+    padding-left: 10px;
+    white-space: pre-wrap;
+    font-size: 25px;
+  }
+
+  .dateTimeInput {
+    font-size: 15px;
+    text-align: left;
+    position: absolute;
+    top: 300px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+
+  .taskList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .glyphiRemove {
+    display: none;
+  }
+
+  .glyphiconShow {
+    display: inline-block;
+  }
+
+  .glyphicon {
+    width: 20px;
+    height: 20px;
+    margin-left: 210px;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  /*.gliphyContainer {
+    height: 55px;
+    position: absolute;
+    }*/
